@@ -6,7 +6,7 @@ const jwtOptions = {
     // Telling Passport to check authorization headers for JWT
     jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
     // Telling Passport where to find the secret
-    secretOrKey: "config.secret",
+    secretOrKey: "my_secret1234",
     jwtSession: {session: false}
 }
 
